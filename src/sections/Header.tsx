@@ -44,6 +44,7 @@ const StyledHeader = styled.div`
   top: 0;
   left: 0;
   z-index: 1000;
+  border-radius: 10px;
 `
 
 const Logo = styled(NavLink)`
