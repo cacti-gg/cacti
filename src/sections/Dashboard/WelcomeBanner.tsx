@@ -18,7 +18,7 @@ const WelcomeWrapper = styled.div`
   }
 
   /* Styling */
-  background: linear-gradient(-45deg, #ffb07c, #ff3e88, #2969ff, #ef3cff, #ff3c87);
+  background: linear-gradient(-45deg, #171919, #ADD951, #87aa3e);
   background-size: 300% 300%;
   animation: welcome-fade-in 0.5s ease, backgroundGradient 30s ease infinite;
   border-radius: 12px; /* Slightly larger radius for a modern look */
@@ -118,8 +118,8 @@ export function WelcomeBanner() {
   return (
     <WelcomeWrapper>
       <WelcomeContent>
-        <h1>Welcome to Gamba v2 👋</h1>
-        <p>A fair, simple and decentralized casino on Solana.</p>
+        <h1>Welcome to CACTI</h1>
+        <p>A fair, simple and decentralized gaming platform on Solana.</p>
       </WelcomeContent>
       <ButtonGroup>
         <ActionButton onClick={handleCopyInvite}>
@@ -127,9 +127,6 @@ export function WelcomeBanner() {
         </ActionButton>
         <ActionButton onClick={openLink('https://v2.gamba.so/')}>
           🚀 Add Liquidity
-        </ActionButton>
-        <ActionButton onClick={openLink('https://discord.gg/HSTtFFwR')}>
-          💬 Discord
         </ActionButton>
       </ButtonGroup>
     </WelcomeWrapper>
