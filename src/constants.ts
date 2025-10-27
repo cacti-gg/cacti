@@ -16,7 +16,7 @@ export const EXPLORER_URL = 'https://explorer.gamba.so'
 export const PLATFORM_SHARABLE_URL = 'play.gamba.so'
 
 // Creator fee (in %)
-export const PLATFORM_CREATOR_FEE = 0.01 // 1% !!max 7%!!
+export const PLATFORM_CREATOR_FEE = 0.02 // 1% !!max 7%!!
 
 export const MULTIPLAYER_FEE = 0.015 // 1% 
 
@@ -92,6 +92,7 @@ export const TOS_HTML = `
   <p><b>7. Fair Play:</b> Games are conducted fairly and transparently.</p>
   <p><b>8. Data Privacy:</b> Your privacy is important to us.</p>
   <p><b>9. Responsible Gaming:</b> Play responsibly; seek help if needed.</p>
+  <p><b>10. License:</b> CACTI does not hold a casino license and therefore is a front-end for WEB3 games.</p>
 `
 
 /**
