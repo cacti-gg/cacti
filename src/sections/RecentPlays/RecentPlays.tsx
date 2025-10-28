@@ -73,14 +73,6 @@ export default function RecentPlays() {
           <TimeDiff time={tx.time} suffix={md ? 'ago' : ''} />
         </Recent>
       ))}
-      <GambaUi.Button
-        main
-        onClick={() =>
-          window.open(`${EXPLORER_URL}/platform/${PLATFORM_CREATOR_ADDRESS.toString()}`)
-        }
-      >
-        🚀 Explorer
-      </GambaUi.Button>
     </Container>
   )
 }
